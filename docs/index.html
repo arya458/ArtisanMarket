@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Online Marketplace for Local Artisans - A platform connecting artisans with customers, built with Kotlin and Ktor">
+    <meta name="keywords" content="Aria Danesh, online marketplace, local artisans, handmade crafts, artisanal goods, local creators, Kotlin, Ktor, e-commerce, artisan marketplace, handmade products, local economy, craft marketplace, artisanal marketplace, handmade jewelry, pottery, textiles, woodworking, glassblowing, ceramics, leather goods, metalwork, paintings, sculptures, digital art, photography, prints, stationery, home decor, kitchenware, accessories, clothing, shoes, bags, wallets, candles, soap, skincare, bath products, food, beverages, spices, herbs, tea, coffee, honey, jams, preserves, pickles, fermented foods, bread, pastries, confections, chocolates, candies, nuts, dried fruits, granola, muesli, spices, herbs, tea, coffee, honey, jams, preserves, pickles, fermented foods, bread, pastries, confections, chocolates, candies, nuts, dried fruits, granola, muesli">
+    <title>Online Marketplace for Local Artisans | Aria Danesh</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Open Graph tags for social media sharing -->
+    <meta property="og:title" content="Online Marketplace for Local Artisans | Aria Danesh">
+    <meta property="og:description" content="A platform connecting artisans with customers, built with Kotlin and Ktor">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/arya458/ArtisanMarket">
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Online Marketplace for Local Artisans",
+        "applicationCategory": "WebApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "author": {
+            "@type": "Person",
+            "name": "Aria Danesh"
+        },
+        "description": "A platform connecting artisans with customers, built with Kotlin and Ktor"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <a href="#" class="logo">ArtisanMarket</a>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#tech-stack">Tech Stack</a></li>
+                    <li><a href="#setup">Setup</a></li>
+                    <li><a href="#api-docs">API Docs</a></li>
+                    <li><a href="#contributing">Contributing</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Online Marketplace for Local Artisans</h2>
+            <p>Connect with talented local artisans and discover unique handmade products. A platform built with Kotlin and Ktor to showcase and sell artisanal goods.</p>
+            <a href="https://github.com/arya458/ArtisanMarket" class="cta-button">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>User Authentication</h3>
+                    <p>Secure login and registration system for both artisans and customers, with role-based access control.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Artisan Profiles</h3>
+                    <p>Detailed profiles for artisans to showcase their work, story, and expertise to potential customers.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Product Listings</h3>
+                    <p>Comprehensive product management with categories, search, filtering, and high-quality image support.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Order Management</h3>
+                    <p>Streamlined order processing, tracking, and fulfillment system for both artisans and customers.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Secure Payments</h3>
+                    <p>Integration with payment gateways for secure transactions between customers and artisans.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Reviews & Ratings</h3>
+                    <p>Customer feedback system to build trust and help artisans improve their products and services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tech-stack" class="tech-stack">
+        <div class="container">
+            <h2>Technology Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <h3>Backend</h3>
+                    <p>Kotlin, Ktor, Exposed ORM, PostgreSQL</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Authentication</h3>
+                    <p>JWT, OAuth2, Password Hashing</p>
+                </div>
+                <div class="tech-item">
+                    <h3>API</h3>
+                    <p>RESTful API, JSON, Swagger Documentation</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Testing</h3>
+                    <p>JUnit, MockK, TestContainers</p>
+                </div>
+                <div class="tech-item">
+                    <h3>DevOps</h3>
+                    <p>Docker, GitHub Actions, AWS</p>
+                </div>
+                <div class="tech-item">
+                    <h3>Frontend</h3>
+                    <p>HTML, CSS, JavaScript, React</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="setup" class="setup">
+        <div class="container">
+            <h2>Quick Start</h2>
+            <div class="setup-steps">
+                <h3>Prerequisites</h3>
+                <ul>
+                    <li>JDK 17 or higher</li>
+                    <li>PostgreSQL 14 or higher</li>
+                    <li>Docker (optional)</li>
+                </ul>
+                <h3>Installation</h3>
+                <pre><code>git clone https://github.com/arya458/ArtisanMarket.git
+cd ArtisanMarket
+./gradlew run</code></pre>
+                <p>The application will be available at <code>http://localhost:8080</code></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="api-docs" class="api-docs">
+        <div class="container">
+            <h2>API Documentation</h2>
+            <p>Comprehensive API documentation is available in the repository. Here's a quick example of the authentication endpoint:</p>
+            <div class="api-examples">
+                <div class="code-block">
+                    <h4>Authentication</h4>
+                    <pre><code>POST /api/auth/login
+Content-Type: application/json
+
+{
+  "email": "user@example.com",
+  "password": "securepassword"
+}
+
+Response:
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "user": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "user@example.com",
+    "role": "CUSTOMER"
+  }
+}</code></pre>
+                </div>
+            </div>
+            <p>For full API documentation, visit the <a href="https://github.com/arya458/ArtisanMarket/tree/main/docs/api">API docs</a> in the repository.</p>
+        </div>
+    </section>
+
+    <section id="contributing" class="contributing">
+        <div class="container">
+            <h2>Contributing</h2>
+            <p>Contributions are welcome! Please feel free to submit a Pull Request.</p>
+            <div class="contribution-steps">
+                <ol>
+                    <li>Fork the repository</li>
+                    <li>Create your feature branch (<code>git checkout -b feature/amazing-feature</code>)</li>
+                    <li>Commit your changes (<code>git commit -m 'Add some amazing feature'</code>)</li>
+                    <li>Push to the branch (<code>git push origin feature/amazing-feature</code>)</li>
+                    <li>Open a Pull Request</li>
+                </ol>
+                <p>Please make sure to update tests as appropriate and follow the existing code style.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Created by <a href="https://github.com/arya458">Aria Danesh</a></p>
+            <p>&copy; 2023 Online Marketplace for Local Artisans. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scroll-to-top"></a>
+
+    <script>
+        // Scroll to top button functionality
+        const scrollToTopBtn = document.querySelector('.scroll-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                scrollToTopBtn.classList.add('visible');
+            } else {
+                scrollToTopBtn.classList.remove('visible');
+            }
+        });
+        
+        scrollToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Header scroll effect
+        const header = document.querySelector('header');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html> 
